@@ -56,7 +56,7 @@ public class Consulta {
                 "data=" + data.format(formatoBR) +
                 ", valorConsulta=" + valorConsulta +
                 ",\n medico=" + medico +
-                ",\n paciente=" + paciente +
+                ",\n     paciente=" + paciente +
                 '}';
     }
 }
