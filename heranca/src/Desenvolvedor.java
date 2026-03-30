@@ -43,4 +43,13 @@ public class Desenvolvedor {
                 ", salarioBase=" + salarioBase +
                 '}';
     }
+
+    public void codar() {
+        System.out.println("Desenvolvedor planeja e escreve código");
+    }
+
+    public float calcularBonus() {
+        return this.salarioBase * 0.05f;
+    }
+
 }
